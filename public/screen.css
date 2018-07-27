@@ -6,6 +6,7 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 70em;
   margin-left: 8em;
   background-color: black;
@@ -63,16 +64,14 @@ body {
 
 .bubble-top-content {
   padding: 1em;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
+  font-size: 24px;
   font-weight: bolder;
   justify-content: center;
 }
 
 .bubble-bottom-content {
   padding: 0em 0em 1em 1.6em;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
+  font-size: 18px;
   justify-content: center;
 }
 
@@ -96,14 +95,52 @@ body {
   margin: 1em 1em 1em 1em;
 }
 
+.bottom-react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
 .bottom-react-background {
   background-image: url(/images/react.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   height: 4em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  margin: 1em 1em 0em 1em;
 }
 
 .react-text {
-padding: 2em;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFEFE;
+  margin: 0em 1em 0em 1em;
+  padding: 1em 1em 3em 1em;
+  border-radius: 0em 0em 1em 1em;
+}
+
+.bold-text {
+  font-weight: bolder;
+}
+
+.header-text {
+  font-size: 24px;
+}
+
+.text {
+  margin: .8em 0em 0em 0em;
+}
+
+.button {
+  background-color: #1483D2;
+  border-radius: .3em;
+  color: white;
+  width: 10em;
+  padding: 1em;
+  text-align: center;
+  font-size: 16px;
+  margin: -1.5em 0em 1em 58em;  
 }
