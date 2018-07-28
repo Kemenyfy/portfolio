@@ -100,7 +100,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
 }
 
 .bottom-react-background {
@@ -153,5 +152,44 @@ body {
   padding: 1em;
   text-align: center;
   font-size: 16px;
-  margin: -1.5em 0em 0em 58em;  
+  margin: -5em 0em 0em 58em;  
+}
+
+.twitter-motto {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+}
+
+.bottom-twitter ul{
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-twitter img{
+  width: 5em; 
+  margin: 1em 1em 1em 1em; 
+}
+
+.footer {
+  color: white;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: 4em 2em 4em 2em;
+  font-size: 12px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 42px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #1483D2;
+  color: white;
+  border-radius: 50%;
+  margin: .3em
 }
